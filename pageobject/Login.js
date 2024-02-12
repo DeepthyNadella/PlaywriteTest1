@@ -1,4 +1,4 @@
-class Loginpage {
+class Login {
 
     constructor(page)
     {
@@ -17,7 +17,7 @@ class Loginpage {
     await this.username.fill(username);
     await this.password.fill(password);
     await this.login.click();
-    // await this.page.wait(3000);    
+ 
 }
 }
-module.exports = {Loginpage};
+module.exports = {Login};
